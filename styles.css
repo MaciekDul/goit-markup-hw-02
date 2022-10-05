@@ -1,0 +1,6 @@
+.hidden-thing {
+  position: aboslute;
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
