@@ -1,6 +1,69 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
 .hidden-thing {
   position: aboslute;
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
+}
+.title-discription {
+  text-decoration: none;
+  font-family: "Raleway";
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 1.938rem;
+}
+.web {
+  color: #2196f3;
+}
+.menu-discription {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+.menu-discription:hover {
+  color: #2196f3;
+}
+.contact-discription {
+  color: #757575;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+.contact-discription:hover {
+  color: #2196f3;
+}
+.frist-section {
+  background-color: #2f303a;
+}
+
+.first-button {
+  width: 12.5rem;
+  height: 3.125rem;
+  left: 43.75rem;
+  top: 26.875rem;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.main-first-discription {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2.75rem;
+  line-height: 3.75rem;
+}
+.button-disription {
+  background-color: #f5f4fa;
+}
+.button-disription:hover {
+  background-color: #2196f3;
 }
