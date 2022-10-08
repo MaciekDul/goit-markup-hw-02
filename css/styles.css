@@ -2,6 +2,16 @@ body {
   font-family: "Roboto", sans-serif;
   color: black;
 }
+:root {
+  --hover-color: #2196f3;
+  --footer-color: #ffffff;
+  --logo-color: #000000;
+  --menu-color: #212121;
+  --contact-color: #757575;
+  --background-color: #2f303a;
+  --button-background-color: #f5f4fa;
+  --projectname-color: #212121;
+}
 
 .hidden-thing {
   position: aboslute;
@@ -12,126 +22,135 @@ body {
 .title-discription {
   text-decoration: none;
   font-family: "Raleway";
-  color: #000000;
+  color: var(--logo-color);
   font-weight: 700;
-  font-size: 1.625rem;
-  line-height: 1.938rem;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .web {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .menu-discription {
-  color: #212121;
+  color: var(--menu-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1rem;
+  font-size: 14px;
+  line-height: 1.14;
   cursor: pointer;
 }
-.menu-discription:hover {
-  color: #2196f3;
+.menu-discription:hover,
+.menu-discription:focus {
+  color: var(--hover-color);
 }
 .contact-discription {
-  color: #757575;
+  color: var(--contact-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1rem;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.contact-discription:hover {
-  color: #2196f3;
+.contact-discription:hover,
+.contact-discription:focus {
+  color: var(--hover-color);
 }
 .frist-section {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 
 .first-button {
-  width: 12.5rem;
-  height: 3.125rem;
-  left: 43.75rem;
-  top: 26.875rem;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.875rem;
-  color: #ffffff;
-  background-color: #2196f3;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--footer-color);
+  background-color: var(--hover-color);
   cursor: pointer;
 }
 .main-first-discription {
-  color: #ffffff;
+  color: var(--footer-color);
   font-weight: 900;
-  font-size: 2.75rem;
-  line-height: 3.75rem;
+  font-size: 44px;
+  line-height: 1.36;
 }
 .button-disription {
-  background-color: #f5f4fa;
-  width: 5.813rem;
-  height: 2.375rem;
-  border-radius: 0.25rem;
+  background-color: var(--button-background-color);
+  width: 93px;
+  height: 38px;
+  border-radius: 4px;
   cursor: pointer;
 }
-.button-disription:hover {
-  background-color: #2196f3;
+.button-disription:hover,
+.button-disription:focus {
+  background-color: var(--hover-color);
 }
 .lorem-title-discription {
   font-weight: 700;
-  font-size: 0.875rem;
-  line-height: 1rem;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .lorem-descriptions {
-  font-size: 0.875rem;
-  line-height: 1.5rem;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .we-discription {
   font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.625rem;
+  font-size: 36px;
+  line-height: 1.16;
 }
 .name-discripton {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.188rem;
+  font-size: 16px;
+  line-height: 1.18;
 }
 .job-discription {
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.188rem;
+  font-size: 16px;
+  line-height: 1.18;
 }
 .footer-address {
-  color: #ffffff;
+  color: var(--footer-color);
   font-style: normal;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer-discriptions {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 .footer-web-discription {
-  color: #ffffff;
+  color: var(--footer-color);
   font-family: "Raleway";
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.625rem;
-  line-height: 1.938rem;
+  font-size: 26px;
+  line-height: 1.19;
 }
+
 .footer-contact {
-  color: #ffffff;
+  color: var(--footer-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--hover-color);
 }
 .project-name {
-  color: #212121;
+  color: var(--projectname-color);
   font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 2.25rem;
+  font-size: 18px;
+  line-height: 2;
 }
 .project-discription {
-  color: #757575;
-  font-size: 1rem;
-  line-height: 1.875rem;
+  color: var(--contact-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
