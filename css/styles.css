@@ -97,7 +97,7 @@ body {
 }
 
 .lorem-descriptions {
-  color: var(--contact-color #757575);
+  color: var(--contact-color);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -112,6 +112,7 @@ body {
   line-height: 1.18;
 }
 .job-discription {
+  color: var(--contact-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
