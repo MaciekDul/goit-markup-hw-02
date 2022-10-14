@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  margin: 0px;
 }
 :root {
   --hover-color: #2196f3;
@@ -14,8 +15,6 @@ body {
   --projectname-color: #212121;
 }
 .header-discription {
-  width: 1600px;
-  height: 80px;
 }
 
 .hidden-thing {
